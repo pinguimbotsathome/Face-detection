@@ -1,0 +1,8 @@
+Nome do arquivo: img3.jpg
+Distância: 2m
+Altura: 1,7 m
+Quantidade de pessoas: 1
+Gênero: Masculino
+Idade: 50
+sorrindo: sim
+Máscara: não

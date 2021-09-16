@@ -1,0 +1,6 @@
+Nome do arquivo: 3
+Distância: 3m
+Altura: 1,7m
+Quantidade de pessoas: 3
+Idade (esquerda p/ direira):22, 25, 25 
+Usa máscara?: Sim

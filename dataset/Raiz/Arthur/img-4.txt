@@ -1,0 +1,7 @@
+nome do arquivo: img-4.jpg
+distancia: 2 metros
+altura: 2,4 metros
+quantidade de pessoas: 2
+genero (esq / dir): feminino, masculino
+idade (esq / dir): 52, 60
+mascara (esq / dir): nao, nao

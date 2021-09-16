@@ -1,0 +1,8 @@
+Nome do arquivo: img5.jpg
+Distância: 2m
+Altura: 1,6 m
+Quantidade de pessoas: 1
+Gênero: Masculino
+Idade: 19
+óculos: sim
+Máscara: não

@@ -1,0 +1,7 @@
+nome do arquivo: IMG_20201102_192604680_HDR.jpg
+distancia: 2,1 metros
+altura: 1,58 metros
+quantidade de pessoas: 2
+genero (esq / dir): masculino, feminino
+idade (esq / dir): 23, 45
+mascara (esq / dir): nao, nao
