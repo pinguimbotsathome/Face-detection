@@ -1,12 +1,21 @@
+import os
 import cv2
-import sys
 import numpy as np
+from time import time
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.image import img_to_array
 from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
 
+def main(image):
+	prototxt_path = os.path.sep.join([main_dir,'Models/deploy.prototxt'])
+	weights_path = os.path.sep.join([main_dir,'Models/res10_300x300_ssd_iter_140000.caffemodel'])
+	model = load_model(os.path.sep.join([main_dir,'Models/model_detector.h5']))
 
-def image_detection_classification(prototxt_path, weights_path, model):
+
+	image = cv2.imread(image)
+	(h, w) = image.shape[:2]
+	
+
 	net = cv2.dnn.readNet(prototxt_path, weights_path)
 
 	blob = cv2.dnn.blobFromImage(image, 1.0, (300, 300),(104.0, 177.0, 123.0))
@@ -29,7 +38,7 @@ def image_detection_classification(prototxt_path, weights_path, model):
 			face = np.expand_dims(face, axis=0)
 
 			_, with_mask, without_mask = model.predict(face, batch_size=32)[0] 
-	    
+		
 
 			if with_mask >= 0.85:
 			  color = (0, 128, 0)
@@ -42,31 +51,23 @@ def image_detection_classification(prototxt_path, weights_path, model):
 			cv2.putText(image, label, (startX, startY - 10), \
 			cv2.FONT_HERSHEY_SIMPLEX, 1.5*aspect_ratio, color, 4)
 			cv2.rectangle(image, (startX, startY), (endX, endY), color, 5)
-	return image
+    
+	return image  
 
+main_dir = os.getcwd()
+directory = os.path.sep.join([main_dir,'/dataset/Raiz'])
+N_directory = os.path.sep.join([main_dir,'/dataset/Nut'])
 
-def resize(image, window_height=1280):
-    aspect_ratio = float(image.shape[1])/float(image.shape[0])
-    window_width = window_height/aspect_ratio
-    image = cv2.resize(image, (int(window_height),int(window_width)))
-    return image
-
-
-
-prototxt_path = 'Models/deploy.prototxt'
-weights_path = 'Models/res10_300x300_ssd_iter_140000.caffemodel'
-model = load_model('Models/model_detector.h5')
-
-image = cv2.imread(sys.argv[1])
-(h, w) = image.shape[:2]
-
-
-
-image_final = image_detection_classification(prototxt_path, weights_path, model)
-image_final = resize(image)
-
-cv2.imshow('output',image_final)
-cv2.waitKey(0)
-cv2.destroyAllWindows()
-
- 
+t1 = time()
+for subdir, dirs, files in os.walk(directory):
+    for file in files:
+        if file.endswith(".jpg"):
+            img = main(os.path.join(subdir,file))
+            
+            os.chdir(N_directory)
+            filename = (f'Nut_{file}')
+            cv2.imwrite(filename, img)
+t2 = time()           
+print(f'I spent {t2-t1:.2f}s on this joke')
+           
+                       
