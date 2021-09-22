@@ -1,0 +1,11 @@
+2021-09-22 12:15:55
+
+N_IMG_20201031_173017.jpg: 1 detections 
+99.7%: With mask
+
+N_2.jpg: 2 detections 
+24.1%: Without mask
+99.9%: With mask
+
+N_img5.jpg: 1 detections 
+48.7%: Without mask
