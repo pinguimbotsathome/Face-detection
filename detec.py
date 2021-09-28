@@ -1,3 +1,6 @@
+# python3 detec.py dataset/xxx/
+# python3 detec.py xxx.jpg
+
 import os
 import sys
 import cv2
@@ -77,7 +80,7 @@ def loop_folder(folder_in):
 	for subdir, dirs, files in os.walk(in_dir):
 		if subdir != out_dir:			
 			for file in files:
-				if file.endswith(".jpg"):
+				if file.endswith((".jpg",".png",".jpeg")):
 					img, qtd_detec, labels = detec(os.path.join(subdir,file))
 					
 					os.chdir(out_dir)
