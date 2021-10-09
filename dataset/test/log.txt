@@ -1,14 +1,16 @@
-2021-09-23 20:24:00
+2021-10-09 12:16:40
 
-N_Screenshot from 2021-09-23 20-13-29.png: 1 detections 
+N_1.jpg: 1 detections 
+39.9%: Without mask
+
+N_4.jpg: 1 detections 
 100.0%: With mask
 
-N_IMG_20201031_173017.jpg: 1 detections 
-99.7%: With mask
+N_IMG_20211004_125228.jpg: 0 detections 
 
-N_2.jpg: 2 detections 
-24.1%: Without mask
-99.9%: With mask
+N_IMG_20211004_120029791.jpg: 0 detections 
 
-N_img5.jpg: 1 detections 
-48.7%: Without mask
+N_5.jpg: 1 detections 
+54.0%: Without mask
+
+N_3.jpg: 0 detections 

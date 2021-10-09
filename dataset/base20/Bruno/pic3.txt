@@ -1,0 +1,7 @@
+pic3.jpg
+Distância da pessoa para a câmera: 2
+Altura da câmera: 1.5
+Quantidade de pessoas: 1
+Gênero: Feminino
+Idade: 9
+Máscara: sim

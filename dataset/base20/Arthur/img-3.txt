@@ -1,0 +1,7 @@
+nome do arquivo: img-3.jpg
+distancia: 2 metros
+altura: 2,4 metros
+quantidade de pessoas: 1
+genero (esq / dir): masculino
+idade (esq / dir): 20
+mascara (esq / dir): nao

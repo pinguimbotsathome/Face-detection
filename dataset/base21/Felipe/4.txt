@@ -1,0 +1,5 @@
+Filename: 4.jpg
+Distance: 2m
+Height: 1,5m
+Number of people: 1
+Use mask: False

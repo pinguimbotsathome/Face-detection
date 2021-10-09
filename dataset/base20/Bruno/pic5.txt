@@ -1,0 +1,7 @@
+pic5.jpg
+Distância da pessoa para a câmera: 2
+Altura da câmera: 1.6
+Quantidade de pessoas: 1
+Gênero: Feminino
+Idade: 65
+Máscara: sim

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Objetos Arthur</folder>
+	<filename>20210929_220615.jpg</filename>
+	<path>D:\Isabe\Documents\Importante\Faculdade\Pinguimbots\Tarefas\Tarefa 5\Objetos Arthur\20210929_220615.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2886</width>
+		<height>1623</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Beer can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1063</xmin>
+			<ymin>23</ymin>
+			<xmax>1673</xmax>
+			<ymax>1302</ymax>
+		</bndbox>
+	</object>
+</annotation>

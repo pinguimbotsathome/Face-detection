@@ -1,6 +1,3 @@
-# python3 detec.py dataset/xxx/
-# python3 detec.py xxx.jpg
-
 import os
 import sys
 import cv2

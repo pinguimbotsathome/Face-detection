@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Objetos Arthur</folder>
+	<filename>20210929_220653.jpg</filename>
+	<path>D:\Isabe\Documents\Importante\Faculdade\Pinguimbots\Tarefas\Tarefa 5\Objetos Arthur\20210929_220653.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2910</width>
+		<height>1637</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Chocolat</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>626</xmin>
+			<ymin>454</ymin>
+			<xmax>2128</xmax>
+			<ymax>915</ymax>
+		</bndbox>
+	</object>
+</annotation>

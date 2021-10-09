@@ -1,0 +1,5 @@
+Filename; Distance; Height; Number of people; Use mask
+IMG_20211001_103840; 1,5; 1; 1; No 
+IMG_20211001_103910; 1,5; 1; 1; No
+IMG_20211001_104346; 1,5; 1; 1; Yes
+IMG_20211001_104447; 1,5; 1; 1; Yes

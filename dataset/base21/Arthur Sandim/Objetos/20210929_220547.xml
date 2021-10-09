@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Objetos Arthur</folder>
+	<filename>20210929_220547.jpg</filename>
+	<path>D:\Isabe\Documents\Importante\Faculdade\Pinguimbots\Tarefas\Tarefa 5\Objetos Arthur\20210929_220547.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>3177</width>
+		<height>1787</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Soda can</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1180</xmin>
+			<ymin>112</ymin>
+			<xmax>1835</xmax>
+			<ymax>1293</ymax>
+		</bndbox>
+	</object>
+</annotation>

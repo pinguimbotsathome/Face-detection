@@ -1,0 +1,5 @@
+Filename: IMG_20211004_125222.jpg
+Distance: 2,5m
+Height: 2,5m
+Number of people: 1
+Use mask: True

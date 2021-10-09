@@ -1,7 +1,0 @@
-﻿Nome do arquivo: img1.jpg
-Distância: 2m
-Altura: 1,7m
-Quantidade de pessoas: 2
-Idade (esquerda p/ direira): 50, 43
-Gênero (esquerda p/ direira): Masculino, Feminino
-Máscara (esquerda p/ direira): Sim, não

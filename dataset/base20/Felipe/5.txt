@@ -1,0 +1,6 @@
+Nome do arquivo: 5
+Distância: 2m
+Altura: 1m
+Quantidade de pessoas: 1
+Idade:21
+Usa máscara?: Não
