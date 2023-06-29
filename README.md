@@ -2,7 +2,7 @@
 Application to detect faces with or without mask on images.
 ### How to use:
 - Clone this repo using:
--  - ```git clone https://github.com/pinguimbotsathome/Face-detection.git```
+  - ```git clone https://github.com/pinguimbotsathome/Face-detection.git```
 
 - Install the requirements under the file requirements.txt
 
