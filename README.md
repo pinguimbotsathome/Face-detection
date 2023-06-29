@@ -19,8 +19,6 @@ Application to detect faces with or without mask on images.
   It will generate a log file with the time and filename along <br />
   with the pic results on the "[xxx]/output/" .
   
-
-
   
 ### Extra:  
 - /dataset/base20 and ../base20  contains the dataset sent to robocup 2020 and 2021.
